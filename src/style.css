@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #23252C;
+    font-family: "inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.container {
+    border-radius: 20px;
+    min-height: 700px;
+    width: 300px;
+    background-color: #1A1B21;
+}
+
+.avatar {
+    width: 300px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+
+.avatar-name {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.avatar-job {
+    color: #F3BF99;
+    font-size: 12.8px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.avatar-site {
+    color: #F5F5F5;
+    font-size: 10.24px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.buttons .email {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #374151;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email img {
+    margin-right: 10px;
+}
+
+.buttons .linkedin {
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    background-color: #5093E2;
+    cursor: pointer;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin img {
+    margin-right: 10px;
+}
+
+.about {
+    margin-top: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.about-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.about-info {
+    font-size: 11px;
+    color: #DCDCDC;
+    line-height: 15px;
+}
+
+.interest {
+    /* margin-top: 5px; */
+    padding: 5px 30px;
+    color: white;
+}
+
+.interest-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.interest-info {
+    font-size: 11px;
+    color: #DCDCDC;
+    line-height: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161619;
+    height: 40px;
+    margin-top: 30px;
+    padding: 30px 0;
+    width: 300px;
+}
+
+footer img {
+    margin-right: 20px;
+}
